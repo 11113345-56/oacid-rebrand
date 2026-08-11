@@ -41,12 +41,7 @@ h1, h2, h3, h4, h5 { font-weight: 700; }
 }
 .navbar-custom .nav-link:hover,
 .navbar-custom .nav-link.active { color: var(--oacid-gold) !important; }
-.navbar-brand {
-  height: 56px;
-  display: flex;
-  align-items: center;
-  overflow: hidden;
-}
+
 .navbar-brand {
   height: 62px;
   display: flex;
@@ -59,6 +54,16 @@ h1, h2, h3, h4, h5 { font-weight: 700; }
   object-fit: contain;
   margin-top: -24px;
   margin-bottom: -24px;
+}
+.navbar-custom .container {
+  padding-left: 8px;
+}
+.navbar-toggler {
+  border-color: var(--oacid-gold);
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='%23d9a441' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
 }
 /* Hero */
 .gradient-hero {
