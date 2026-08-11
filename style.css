@@ -48,13 +48,13 @@ h1, h2, h3, h4, h5 { font-weight: 700; }
   overflow: hidden;
 }
 .navbar-brand {
-  height: 120px;
+  height: 80px;
   display: flex;
   align-items: center;
   overflow: hidden;
 }
 .navbar-brand img {
-  height: 220px;
+  height: 150px;
   width: auto;
   object-fit: contain;
   margin-top: -24px;
